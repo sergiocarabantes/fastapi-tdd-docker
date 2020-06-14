@@ -1,9 +1,9 @@
 import json
-from datetime import datetime
+# from datetime import datetime
 
 import pytest
 
-from app.api import crud, summaries
+from app.api import summaries
 
 
 def test_create_summary(test_app_with_db, monkeypatch):
