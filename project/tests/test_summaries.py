@@ -7,8 +7,6 @@ from app.api import summaries
 # from datetime import datetime
 
 
-
-
 def test_create_summary(test_app_with_db, monkeypatch):
     def mock_generate_summary(summary_id, url):
         return None
